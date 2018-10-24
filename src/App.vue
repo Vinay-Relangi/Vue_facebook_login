@@ -1,17 +1,6 @@
 <template>
-    <login/>
+    <router-view/>
 </template>
-
-<script>
-import login from "./components/login/login.vue";
-
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
-};
-</script>
 
 <style>
 body {
@@ -107,7 +96,7 @@ footer hr {
 }
 
 article.container {
-  max-width: 100vw;
+  width: 100vw;
   padding: 0 15%;
   background: linear-gradient(white, #d3d8e8);
   height: calc(100vh - 140px);
